@@ -13,7 +13,7 @@ img{
     vertical-align: middle;
 }
 .wrapper{
-    width: 960px;
+    width: 1140px;
     margin: 0 auto;
 }
 body{
@@ -21,23 +21,37 @@ body{
 }
 /* header part start */
 .header_part{
-    background-color: green;
+    background-color: #f1f1f1;
     height: 70px;
 }
 .logo{
-    width: 150px;
+    width: 340px;
     height: 70px;
-    background: white;
+    
     float: left;
 }
-.logo img{
-    width: 150px;
-    height: 70px;
+.logo a img{
+    padding-top: 10px;
 }
 .menu{
-    width: 810px;
+    width: 800px;
     height: 70px;
-    background: #f1f1f1;
+    background: #1440d3;
     float: left;
+}
+.menu a{
+    display: inline-block;
+    line-height: 70px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: sans-serif;
+    transition: 0.4s;
+}
+.menu a.active,
+.menu a:hover{
+    color: black;
 }
 /* header part start */
