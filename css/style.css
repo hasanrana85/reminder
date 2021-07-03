@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+ol,ul{
+    list-style-type: none;
+}
+img{
+    vertical-align: middle;
+}
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+body{
+
+}
+/* header part start */
+.header_part{
+    background-color: green;
+    height: 70px;
+}
+.logo{
+    width: 150px;
+    height: 70px;
+    background: black;
+    float: left;
+}
+.menu{
+    width: 810px;
+    height: 70px;
+    background: #f1f1f1;
+    float: left;
+}
+/* header part start */
